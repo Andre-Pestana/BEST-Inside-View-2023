@@ -1,0 +1,9 @@
+
+  .icone {
+    display: block; /* exibe a div por padrão */
+  }
+  @media only screen and (max-width: 767px) {
+    .icone {
+      display: none; /* esconde a div quando a largura é menor que 767px */
+    }
+  }
